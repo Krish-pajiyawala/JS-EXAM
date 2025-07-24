@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Manager</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>🛒 Products </h1>
+
+    
+    <form id="ProductForm">
+        <input type="text" id="Product_name" placeholder="Product Name" required>
+        <input type="text" id="Product_image" placeholder="Image URL" required>
+        <input type="number" id="Price" placeholder="Price" required>
+        <input type="text" id="Category" placeholder="Category" required>
+        <button type="submit">Add Product</button>
+    </form>
+    
+    <div class="filter-bar">
+        <input type="text" id="searchInput" placeholder="Search by Name">
+
+        <select id="priceRange">
+            <option value="">All Prices</option>
+            <option value="0-1000">0 - 1000</option>
+            <option value="1001-5000">1001 - 5000</option>
+            <option value="5001-10000">5001 - 10000</option>
+            <option value="10001-50000">10001 - 50000</option>
+            <option value="50001-100000">50001 - 100000</option>
+        </select>
+    </div>
+    <div class="cont"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
