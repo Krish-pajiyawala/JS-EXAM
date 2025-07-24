@@ -24,7 +24,6 @@ h1 {
     gap: 10px;
 }
 
-/* Search input */
 #searchInput {
     flex: 1;
     padding: 10px;
@@ -33,7 +32,6 @@ h1 {
     border-radius: 4px;
 }
 
-/* Price range dropdown */
 #priceRange {
     width: 200px;
     padding: 10px;
@@ -42,7 +40,6 @@ h1 {
     border-radius: 4px;
 }
 
-/* Product form styling */
 form {
     display: flex;
     flex-wrap: wrap;
@@ -105,9 +102,11 @@ form button:hover {
 }
 
 .product-card__image img {
-    width: 100%;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     display: block;
+    margin: 0 auto;
+    padding: 30px 0 10px  ;
 }
 
 .product-card__info {
